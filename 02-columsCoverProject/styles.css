@@ -109,3 +109,30 @@
       background-position: 0 90%;
     }
   }
+
+:root {
+    --scale:1.15;
+}
+.fancy-text{
+    font-size: var(--lg);
+    line-height: 1.2;
+}
+
+article{
+    padding:2rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    /*grid-template-rows: auto auto auto auto auto auto*/
+    grid-template-rows: repeat(6, auto);
+}
+
+article footer {
+    margin-top: var(--lg);
+    font-size:  var(--small);
+}
+
+.article-img-wrapper {
+    grid-row: 2/3;
+}
