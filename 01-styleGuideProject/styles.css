@@ -101,3 +101,56 @@ header h1 {
     margin-bottom: 0;
 }
 
+.fancy-text{
+    background: linear-gradient(135deg, --mocha 0%,--tan 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 35%;
+    background-position: 0 90%;
+}
+
+.colors > *{
+    width: 5rem;
+    height: 4rem;
+    display: inline-block;
+    text-align: center;
+    padding: 1rem 0;
+    margin: 1rem;
+    border: 1px solid var(--coffee);
+}
+
+.white{
+    background-color: var(--white);
+}
+
+.green {
+    background-color: var(--green);
+    color: var(--vanilla)
+}
+
+.coffee {
+    background-color: var(--coffee);
+    color: var(--vanilla)
+}
+
+.vanilla {
+    background-color: var(--vanilla);
+}
+
+.lemon {
+    background-color: var(--lemon);
+}
+
+.mocha {
+    background-color: var(--mocha);
+    color: var(--vanilla)
+}
+
+.tan {
+    background-color: var(--tan);
+    color: var(--vanilla)
+}
+
+.blue {
+    background-color: var(--blue);
+    color: var(--vanilla)
+}
