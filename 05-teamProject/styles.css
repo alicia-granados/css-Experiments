@@ -165,3 +165,25 @@ figcaption p{
 .icons:hover{
   background-color: var(--blue);
 }
+
+.team{
+  margin: 3rem auto;
+}
+
+@media (min-width:675px) { 
+  .fancy-text{
+    font-size: var(--xl);
+  }
+  .team{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin: 3rem auto;
+  }
+}
+
+@media (min-width:1000px) { 
+  .team{
+    grid-template-columns: repeat(3,1fr);
+  }
+}
