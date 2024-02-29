@@ -155,4 +155,24 @@
   max-width: 1200px;
   display: grid;
   grid-template-columns: repeat(5,1fr);
+  overflow: auto;
+  gap: 2rem;
+}
+/*webkit*/
+.wrapper::-webkit-scrollbar {
+  width: 10px;
+}
+
+.wrapper::-webkit-scrollbar-track{
+  background-color: var(--tan);
+}
+.wrapper::-webkit-scrollbar-thumb{
+  box-shadow: inset 0 0 6px rgba(0,0,0,1);
+}
+
+/* firefox*/
+
+html{
+  scrollbar-color: var(--coffee) var(--tan);
+  scrollbar-width: thin;
 }
