@@ -175,3 +175,38 @@ article footer {
         justify-self: end;
     }
 }
+
+@media (min-width:800px) {
+    .fancy-text{
+        font-size: var(--xl);
+    }
+    article{
+        grid-template-columns: 2fr 1fr;
+    }
+    .article-img-wrapper{
+        margin: .5rem 0 0 2rem;
+    }
+    .main-text{
+        columns: 2;
+        /* border:1px solid black */ 
+    }
+    .main-text p {
+        margin-top: 0;
+        /*border:1px solid blue */
+    }
+}
+@media (min-width:1000px) {
+    
+    article{
+        display: block;
+
+    }
+    .main-text{
+        columns: 3;
+    }
+    .article-img-wrapper{
+        max-width: 100%;
+        height: 500px;
+        margin-top: 3rem 0 0 0;
+    }
+}
