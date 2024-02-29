@@ -107,3 +107,32 @@
     background-position: 0 90%;
   }
 }
+
+figure{
+  margin: 0 auto 3rem auto;
+  padding:  0;
+  max-width: 300px;
+}
+
+figure > img{
+  border-radius: 50%;
+  border: 2px solid var(--green);
+}
+
+figcaption{
+  text-align: center;
+}
+
+figcaption h2{
+  display: inline-block;
+  margin: 0;
+  background: linear-gradient(135deg, var(--mocha) 0%, var(--tan) 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 20%;
+  background-position: 0 90%;
+}
+
+figcaption p{
+  font-size: var(--h5);
+  margin: 0;
+}
