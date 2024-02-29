@@ -209,7 +209,7 @@ What styles do you need to carry to this MQ from the config grid to ensure align
     padding: 0;
     margin: 0 auto;
     max-width: 400px;
-    font-size: var(--lg);s
+    font-size: var(--lg);
     align-self: center;
   }
   .one {
