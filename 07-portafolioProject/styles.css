@@ -68,3 +68,16 @@ a:hover{
   font-size: 4rem;
   font-weight: normal;
 }
+
+#contact {
+  /*width: 400px;*/
+  color: var(--white);
+  margin: 0 auto;
+  padding: 3rem 0;
+  text-align: center;
+  background-color: var(--plum);
+}
+
+#contact p:last-child{
+  margin-top: 3rem;
+}
