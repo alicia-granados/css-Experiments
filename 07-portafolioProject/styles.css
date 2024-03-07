@@ -3,7 +3,7 @@
   --dkblack: #0d314b;
   --plum: #4b0d49;
   --hotmag: #ff17e4;
-  --nagenta: #e310cb;
+  --magenta: #e310cb;
   --aqua: #86fbfb;
   --white: #f7f9fa;
   --font-size: 1.3rem;
@@ -28,4 +28,17 @@ body{
   background-color: var(--black);
   color: var(--white);
   font-size: var(--font-size);
+}
+
+h1, h2, h3{
+  margin: 0;
+}
+
+a{
+  color: var(--magenta);
+}
+
+a:hover{
+  color: var(--hotmag);
+  text-decoration: none;
 }
