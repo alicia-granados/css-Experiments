@@ -16,3 +16,39 @@ a {
   text-decoration: none;
   /* text-decoration: inherit;*/
 }
+
+.header {
+  display: grid;
+  /*
+  justify-content: space-between;*/
+  grid-template-columns: 1fr 3fr 34px;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  align-items: center;
+  grid-template-areas: "logo nav shopping-cart";
+  padding: 0 60px;
+}
+.header__link {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.nav {
+  display: inline-block;
+  justify-self: end;
+}
+
+.nav__link {
+  list-style: none;
+  display: flex;
+}
+
+.nav__list-item {
+  /* margin: 0 36px 0 0; /*top right botton left /
+  margin: 0 36px 0; /*top/right rigth left /
+  margin: 36px; /*top/right/botton/left 
+  margin-right: 36px;*/
+  margin-inline-end: 36px;
+  font-size: 20px;
+}
