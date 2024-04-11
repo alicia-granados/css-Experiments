@@ -11,10 +11,21 @@
 }
 
 body {
-  background-color: var(--color-primary);
-  color: var(--color-text-on-primary);
   /*  font-family: InterBold; */
   font-family: var(--font-family);
+}
+
+.body--primary {
+  color: var(--color-text-on-primary);
+  background-color: var(--color-primary);
+}
+
+.body--secondary {
+  color: var(--color-primary);
+  background-color: var(--color-text-on-primary);
+}
+.main {
+  padding: 150px;
 }
 p {
   margin: 0;
