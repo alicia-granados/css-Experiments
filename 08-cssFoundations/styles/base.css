@@ -116,6 +116,19 @@ a {
   display: none;
 }
 
+.home .menu path {
+  fill: var(--color-text-on-primary);
+}
+
+.close {
+  display: none;
+}
+
+.close,
+.menu {
+  cursor: pointer;
+}
+
 @media (max-width: 1220px) {
   .button {
     font-size: 24px;
@@ -131,14 +144,47 @@ a {
   .menu {
     display: block;
   }
-  .nav {
+  .menu--hide {
     display: none;
+  }
+
+  .close--show {
+    display: block;
+  }
+
+  .nav {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background: var(--color-primary);
+    top: 60px;
+    left: -100%;
+    padding-top: 60px;
+    transition: left 0.2s linear;
+  }
+
+  .nav--visible {
+    left: 0;
+  }
+
+  .nav__list {
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80%;
+  }
+
+  .nav__list-item {
+    font-size: 60px;
+    font-weight: bold;
   }
   .header {
     display: grid;
     grid-template-columns: 33px 1fr 34px;
     align-items: center;
-    justify-items: center;
+  }
+
+  .header__link {
+    justify-self: center;
   }
 }
 
