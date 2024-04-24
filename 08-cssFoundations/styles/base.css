@@ -141,6 +141,10 @@ a {
 }
 
 @media (max-width: 840px) {
+  .body--no-scroll {
+    overflow: hidden;
+  }
+
   .menu {
     display: block;
   }
@@ -174,7 +178,7 @@ a {
   }
 
   .nav__list-item {
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bold;
   }
   .header {
